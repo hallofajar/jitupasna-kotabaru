@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#container-map {
+  height: calc(100% - 56px);
+  width: 100%;
+}
+
+@media (min-width: 575px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+.maps {
+  width: auto;
+  height: 100%;
+}
