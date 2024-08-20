@@ -20,7 +20,7 @@ Coded by www.creative-tim.com
   <link rel="shortcut icon" type="image/png" href={{ asset('assets/favicon.ico') }}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Partisipasi UMKM dalam Pengadaan Barang/Jasa Pemerintah
+    Jitupasna Kotabaru
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
     name='viewport' />
@@ -47,7 +47,7 @@ Coded by www.creative-tim.com
           </div>
           <p>CT</p> --}}
         </a>
-        <img src="https://sriinstitute.com/wp-content/uploads/2021/12/logosriinstitutenew.png">
+        <img src="{{ asset('assets/logo_gs.jpeg') }}">
 
       </div>
       <div class="sidebar-wrapper">
@@ -68,236 +68,26 @@ Coded by www.creative-tim.com
 
           <li class="">
             <a href="#">
-              <h6 class="m-0">All Region</h6>
+              <h6 class="m-0">Data</h6>
             </a>
           </li>
 
           <li class="{{ $active == 'resume-all' ? 'active' : '' }}">
             <a href="{{ route('all.resume') }}">
               <i class="nc-icon nc-chart-pie-36"></i>
-              <p>RESUME ALL</p>
+              <p>RESUME</p>
             </a>
           </li>
 
           <li class="{{ $active == 'crosstab-all' ? 'active' : '' }}">
             <a href="{{ route('dashboard.crosstab', ['region' => 'all']) }}">
               <i class="nc-icon nc-tile-56"></i>
-              <p>Crosstab All</p>
+              <p>Crosstab</p>
             </a>
           </li>
 
           <li class="{{ $active == 'tablecrosstab-all' ? 'active' : '' }}">
             <a href="{{ route('dashboard.tablecrosstab.all') }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">SURABAYA</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'surabaya']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'surabaya']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'surabaya']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-surabaya' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'surabaya']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">Bekasi</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'bekasi']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'bekasi']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'bekasi']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-bekasi' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'bekasi']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">BANDUNG</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'bandung']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'bandung']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'bandung']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-bandung' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'bandung']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">SIDOARJO</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'sidoarjo']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'sidoarjo']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'sidoarjo']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-sidoarjo' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'sidoarjo']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">JAKARTA TIMUR</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'jakartatimur']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'jakartatimur']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'jakartatimur']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-jakartatimur' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'jakartatimur']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>table Crosstab</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="#">
-              <h6 class="m-0">JAKARTA BARAT</h6>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.list', ['region' => 'jakartabarat']) }}">
-              <i class="nc-icon nc-bullet-list-67"></i>
-              <p>List</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.resume', ['region' => 'jakartabarat']) }}">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Resume</p>
-            </a>
-          </li>
-
-          <li class="">
-            <a href="{{ route('dashboard.crosstab', ['region' => 'jakartabarat']) }}">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>CrossTab</p>
-            </a>
-          </li>
-
-
-          <li class="{{ $active == 'tablecrosstab-jakartabarat' ? 'active' : '' }}">
-            <a href="{{ route('dashboard.tablecrosstab', ['region' => 'jakartabarat']) }}">
               <i class="nc-icon nc-tile-56"></i>
               <p>table Crosstab</p>
             </a>
@@ -329,8 +119,8 @@ Coded by www.creative-tim.com
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <ul class="navbar-nav">
               <li class="nav-item btn-rotate dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
                   <i class="nc-icon nc-settings-gear-65"></i>
                   <p>
                     <span class="d-lg-none d-md-block">Action</span>
@@ -358,8 +148,7 @@ Coded by www.creative-tim.com
           <div class="row">
             <nav class="footer-nav">
               <ul>
-                <li><a href="www.sinaugis.com" target="">Partisipasi UMKM dalam Pengadaan Barang/Jasa
-                    Pemerintah</a>
+                <li><a href="https://github.com/hallofajar" target="">Jitupasna Kabupaten Kotabaru</a>
                 </li>
                 <!-- <li><a href="www.sinaugis.com" target="_blank">SINAUGIS</a></li> -->
                 <!-- <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li> -->
@@ -370,7 +159,7 @@ Coded by www.creative-tim.com
                 ©
                 <script>
                   document.write(new Date().getFullYear())
-                </script>, made with <i class="fa fa-heart heart"></i> by Sri Institute
+                </script>, made with <i class="fa fa-heart heart"></i> by HalloFajar
               </span>
             </div>
           </div>

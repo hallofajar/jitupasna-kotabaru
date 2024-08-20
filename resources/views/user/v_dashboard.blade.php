@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom: 400px">
           <div class="card card-stats">
             <div class="card-body ">
               <div class="row">
@@ -56,8 +56,8 @@
                 </div>
                 <div class="col-7 col-md-8">
                   <div class="numbers">
-                    <p class="card-category">Sidoarjo</p>
-                    <p class="card-title">{{ $datasurvei['sidoarjo'] }}</p>
+                    <p class="card-category">laki-laki</p>
+                    <p class="card-title">15</p>
                   </div>
                 </div>
               </div>
@@ -83,8 +83,8 @@
                 </div>
                 <div class="col-7 col-md-8">
                   <div class="numbers">
-                    <p class="card-category">Surabaya</p>
-                    <p class="card-title">{{ $datasurvei['surabaya'] }}</p>
+                    <p class="card-category">Perempuan</p>
+                    <p class="card-title">0</p>
                   </div>
                 </div>
               </div>
@@ -100,112 +100,7 @@
         </div>
 
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-body ">
-              <div class="row">
-                <div class="col-5 col-md-4">
-                  <div class="icon-big text-center icon-warning">
-                    <i class="nc-icon nc-globe text-warning"></i>
-                  </div>
-                </div>
-                <div class="col-7 col-md-8">
-                  <div class="numbers">
-                    <p class="card-category">Bekasi</p>
-                    <p class="card-title">{{ $datasurvei['bekasi'] }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-refresh"></i>
-                Jumlah Responden
-              </div>
-            </div>
-          </div>
-        </div>
 
-
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-body ">
-              <div class="row">
-                <div class="col-5 col-md-4">
-                  <div class="icon-big text-center icon-warning">
-                    <i class="nc-icon nc-globe text-warning"></i>
-                  </div>
-                </div>
-                <div class="col-7 col-md-8">
-                  <div class="numbers">
-                    <p class="card-category">Jakarta Timur</p>
-                    <p class="card-title">{{ $datasurvei['jakarta timur'] }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-refresh"></i>
-                Jumlah Responden
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-body ">
-              <div class="row">
-                <div class="col-5 col-md-4">
-                  <div class="icon-big text-center icon-warning">
-                    <i class="nc-icon nc-globe text-warning"></i>
-                  </div>
-                </div>
-                <div class="col-7 col-md-8">
-                  <div class="numbers">
-                    <p class="card-category">Jakarta Barat</p>
-                    <p class="card-title">{{ $datasurvei['jakarta barat'] }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-refresh"></i>
-                Jumlah Responden
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-body ">
-              <div class="row">
-                <div class="col-5 col-md-4">
-                  <div class="icon-big text-center icon-warning">
-                    <i class="nc-icon nc-globe text-warning"></i>
-                  </div>
-                </div>
-                <div class="col-7 col-md-8">
-                  <div class="numbers">
-                    <p class="card-category">Bandung</p>
-                    <p class="card-title">{{ $datasurvei['bandung'] }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-refresh"></i>
-                Jumlah Responden
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
 

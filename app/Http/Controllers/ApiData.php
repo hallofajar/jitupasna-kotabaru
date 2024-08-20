@@ -16,14 +16,8 @@ class ApiData extends Controller
 		$this->dataSetting = new dataSetting();
 		$this->url = [
 			'token' => 'fe10075386463e2385b3e5e6335aaee8ef2ebb64',
-			'region' => [
-				'bandung' => 'aAp3DvGjDF29TX4tKXMiUo',
-				'sidoarjo' => 'aPusgjxSqemdA2a28xyiS7',
-				'surabaya' => 'aRf92zKWTUfGh2DVCBLXed',
-				'bekasi' => 'aSUvxF97JHtWiPkZA6AU5o',
-				'jakartatimur' => 'aPLeAW2shNHDtQMEijpqnW',
-				'jakartabarat' => 'aSYZFyVa4wbasvyJwWsdec',
-			],
+			'form' =>  'a35fuWHwXzLNK4WFfmHA4G',
+
 			'data' => [
 				'url_pilihan' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS-LYlj8kZaH7I1K7bAe6VqTgKkpTTdZGN0WD2tORafeGAwkqsxXZN1ErBc5V8xFN4P24YwjneAqTno/pub?gid=1161518992&single=true&output=csv',
 				'url_multic' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS-LYlj8kZaH7I1K7bAe6VqTgKkpTTdZGN0WD2tORafeGAwkqsxXZN1ErBc5V8xFN4P24YwjneAqTno/pub?gid=1652927521&single=true&output=csv',
@@ -220,7 +214,7 @@ class ApiData extends Controller
 		$headers = [
 			'Authorization' => 'Token ' . $this->url['token'],
 		];
-		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['region'][$region] . '/data?format=json', [
+		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['form'] . '/data?format=json', [
 			// 'json' => $params,
 			'headers' => $headers,
 			'verify'  => false,
@@ -299,7 +293,9 @@ class ApiData extends Controller
 				'geometry' => [
 					'type' => 'Point',
 					'coordinates' => [
-						floatval($koordinat['1']), floatval($koordinat['0']), floatval($koordinat['2'])
+						floatval($koordinat['1']),
+						floatval($koordinat['0']),
+						floatval($koordinat['2'])
 					]
 				]
 			];

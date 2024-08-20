@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>PARTISIPASI UMKM DALAM PENGADAAN BARANG/JASA PEMERINTAH</title>
+  <title>JITUPASNA KAB Kotabaru</title>
   <meta name="theme-color" content="#ffffff">
 
   <meta charset="utf-8">
@@ -47,7 +47,7 @@
   <!-- main -->
   <div class="w3layouts-main">
     <div class="bg-layer">
-      <h1>Partisipasi UMKM dalam Pengadaan Barang/Jasa Pemerintah</h1>
+      <h1>pengkajian kebutuhan bencanan kabupaten kotabaru</h1>
       <div class="header-main" id="test">
         <!-- <div class="main-icon">
           <img src="{{ asset('assets/leadingpage/img/sinaugis.png') }}" alt="" width="100" srcset="">
@@ -56,49 +56,10 @@
         <div class="row">
           <div class="col">
             <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">SIDOARJO<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
-              </button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">SURABAYA<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
-              </button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">BEKASI<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
-              </button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">JAKARTA TIMUR<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
-              </button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">BANDUNG<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
-              </button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="button header-left-bottom">
-              <button onclick="location.href='#'" class="btn btn btn-ones">JAKARTA BARAT<br>
-                {{-- <img class="mt-2" src="{{ asset('assets/leadingpage/img/sumut.svg') }}" alt="" height="150"
-                  width="150" srcset=""> --}}
+              <button onclick="location.href='#'" class="btn btn btn-ones"><br>
+                <img class="mt-2"
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Lambang_Kabupaten_Kotabaru.png"
+                  alt="" height="200" width="150" srcset="">
               </button>
             </div>
           </div>
@@ -113,7 +74,7 @@
         </div>
       </div>
       <div class="mt-4 text-center text-light">
-        <h6>Tahun 2023</h6>
+        <h6>Tahun 2024</h6>
       </div>
     </div>
 

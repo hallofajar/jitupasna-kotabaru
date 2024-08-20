@@ -16,19 +16,16 @@ class DashboardController extends Controller
 
 	public function index()
 	{
-
-
-
 		$data = [
 			'title' => 'Dashboard',
 			'active' => 'dashboard',
 			'datasurvei' => [
-				'sidoarjo' => $this->apiData->resume_all('sidoarjo')->getOriginalContent()['username']['total'],
-				'surabaya' => $this->apiData->resume_all('surabaya')->getOriginalContent()['username']['total'],
-				'bekasi' => $this->apiData->resume_all('bekasi')->getOriginalContent()['username']['total'],
-				'bandung' => $this->apiData->resume_all('bandung')->getOriginalContent()['username']['total'],
-				'jakarta timur' => $this->apiData->resume_all('jakartatimur')->getOriginalContent()['username']['total'],
-				'jakarta barat' => $this->apiData->resume_all('jakartabarat')->getOriginalContent()['username']['total'],
+				'sidoarjo' => 0,
+				'surabaya' => 0,
+				'bekasi' => 0,
+				'bandung' => 0,
+				'jakarta timur' => 0,
+				'jakarta barat' => 0,
 			]
 		];
 		return view('user.v_dashboard', $data);

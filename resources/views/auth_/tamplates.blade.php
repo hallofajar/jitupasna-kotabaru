@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>PARTISIPASI UMKM DALAM PENGADAAN BARANG/JASA PEMERINTAH</title>
+  <title>jitupasna kotabaru</title>
 
   <!-- Custom fonts for this template-->
   <link href="{{ asset('assets/auth_page/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">

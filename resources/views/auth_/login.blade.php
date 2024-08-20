@@ -16,7 +16,7 @@
                 <div class="p-5">
                   <div class="text-center">
                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 200px; border-radius: 24%;"
-                      src="{{ asset('assets/leadingpage/img/logo_sri.png') }}" alt="...">
+                      src="https://www.sinaugis.com/wp-content/uploads/2018/01/sinaugisicon.png" alt="...">
                     <h1 class="h4 text-gray-900 mb-4">Login</h1>
                   </div>
                   {{-- print eror validation --}}
