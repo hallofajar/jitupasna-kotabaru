@@ -47,7 +47,7 @@ Coded by www.creative-tim.com
           </div>
           <p>CT</p> --}}
         </a>
-        <img src="{{ asset('assets/logo_gs.jpeg') }}">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Lambang_Kabupaten_Kotabaru.png">
 
       </div>
       <div class="sidebar-wrapper">

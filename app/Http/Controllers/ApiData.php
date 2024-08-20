@@ -141,65 +141,16 @@ class ApiData extends Controller
 
 	public function setting_data()
 	{
-		$url_pilihan = $this->url['data']['url_pilihan'];
-		$url_multic = $this->url['data']['url_multic'];
-		$url_grafik = $this->url['data']['url_grafik'];
 
 		$result_data = [
 			'pilihan' => [
 				' ' => ' ',
+
 			],
 			'multi_c' => [],
 			'grafik' => []
 		];
 
-
-		// ambil tabel pilihan
-		$rowCount = 0;
-		if (($handle = fopen($url_pilihan, 'r')) !== FALSE) { // Check the resource is valid
-			while (($data = fgetcsv($handle, 100000, ",")) !== FALSE) { // Check opening the file is OK!
-				$rowCount++;
-				if ($rowCount > 1) {
-					$result_data['pilihan'][$data[0]] = $data[1];
-				};
-			}
-			fclose($handle);
-		}
-
-		// ambil tabel multi_c
-		$rowCount = 0;
-		if (($handle = fopen($url_multic, 'r')) !== FALSE) { // Check the resource is valid
-			while (($data = fgetcsv($handle, 100000, ",")) !== FALSE) { // Check opening the file is OK!
-				$rowCount++;
-				if ($rowCount > 1) {
-					array_push($result_data['multi_c'], str_replace('-', '_', $data[0]));
-				};
-			}
-			fclose($handle);
-		}
-
-		// ambil tabel Grafik
-		$rowCount = 0;
-		if (($handle = fopen($url_grafik, 'r')) !== FALSE) { // Check the resource is valid
-			while (($data = fgetcsv($handle, 100000, ",")) !== FALSE) { // Check opening the file is OK!
-				$rowCount++;
-				if ($rowCount > 1) {
-					$result_data['grafik'][strtolower(str_replace('-', '_', $data[0]))] = [
-						"kode" => $data[1],
-						"judul" => $data[2],
-						"grafik" => $data[3],
-						"jenis_data" => $data[4]
-					];
-				};
-			}
-			fclose($handle);
-		}
-
-		header('Access-Control-Allow-Origin: *');
-		header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Authorization");
-		header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
-
-		// $result_data = $this->dataSetting->dataSetting();
 		return response()->json($result_data);
 	}
 
