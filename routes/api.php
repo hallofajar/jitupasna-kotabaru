@@ -22,13 +22,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/setting', [ApiData::class, 'setting_data']);
 Route::get('/color', [ApiData::class, 'color']);
-Route::get('/data/{region}', [ApiData::class, 'data']);
-Route::get('/datadetail/{region}/{id}', [ApiData::class, 'detail_data']);
-Route::get('/geojson/{region}', [ApiData::class, 'geojson']);
-Route::get('/resume/{region}', [ApiData::class, 'resume_all']);
-Route::get('/resumeall', [ApiData::class, 'resumeAllData']);
-Route::get('/resume_grafik/{region}', [ApiData::class, 'resume_grafik']);
-Route::get('/pivot_data_multi/{region}', [ApiData::class, 'pivot_data_multi_lp']);
-Route::get('/pivot_data_multi_all', [ApiData::class, 'pivot_data_multiAll']);
-Route::get('/pivot_data/{region}', [ApiData::class, 'pivot_data_lp']);
-Route::get('/pivot_data_all', [ApiData::class, 'pivot_dataAll']);
+Route::get('/data', [ApiData::class, 'data']);
+Route::get('/datadetail/{id}', [ApiData::class, 'detail_data']);
+Route::get('/geojson', [ApiData::class, 'geojson']);
+Route::get('/resume', [ApiData::class, 'resume_all']);
+Route::get('/resume_grafik', [ApiData::class, 'resume_grafik']);
+Route::get('/pivot_data_multi', [ApiData::class, 'pivot_data_multi_lp']);
+Route::get('/pivot_data', [ApiData::class, 'pivot_data_lp']);
