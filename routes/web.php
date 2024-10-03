@@ -27,7 +27,7 @@ Route::prefix('dashboard')->middleware(['auth', 'verified'])->group(function () 
 	Route::get('/detail/{region}/{id}', [DashboardController::class, 'detailResponden'])->name('user.respon.detail');
 	Route::get('/resume/{region}', [DashboardController::class, 'resume'])->name('dashboard.resume');
 	Route::get('/resume/print/{region}', [DashboardController::class, 'printResume'])->name('dashboard.resume.print');
-	Route::get('/crosstab/{region}', [DashboardController::class, 'Crosstab'])->name('dashboard.crosstab');
+	Route::get('/crosstab', [DashboardController::class, 'Crosstab'])->name('dashboard.crosstab');
 	Route::get('/crosstab/all-crosstab', [DashboardController::class, 'CrosstabAll'])->name('all.crosstab');
 	Route::get('/tablecrosstab/{region}', [DashboardController::class, 'tablecrosstab'])->name('dashboard.tablecrosstab');
 	Route::get('/tablecrosstabAll', [DashboardController::class, 'tablecrosstaball'])->name('dashboard.tablecrosstab.all');

@@ -12,9 +12,9 @@
   <div class="row justify-content-center">
     <div id="section-print" class="col-12 col-xs-12 col-md-11 col-lg-11 col-xl-10">
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mt-1">
-        <h1 class="display-4">Region {{ $region }} </h1>
-        <p class="lead">Survey results of MSME Participation in Public Procurement<br>
-          <b>Total: {{ $resume['q_q1']['total'] }} Respondents</b>
+        <h1 class="display-4">JITUPASNA ROB </h1>
+        <p class="lead">Survey results of Survei Jitupasna<br>
+          <b>Total: {{ $resume['a_a8']['total'] }} Respondents</b>
         </p>
       </div>
 
@@ -58,7 +58,7 @@
                 </div>
                 <div class="row">
                   <div class="col align-middle text-center">
-                    <small class="text-muted">©SriInstitute2023</small>
+                    <small class="text-muted">2024©HalloFajar</small>
                   </div>
                 </div>
               </div>

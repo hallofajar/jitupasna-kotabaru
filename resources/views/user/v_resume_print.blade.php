@@ -53,10 +53,10 @@
   <!-- End of Topbar -->
 
   <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mt-1">
-    <h1 class="display-4">Region {{ $region }} </h1>
-    <p class="lead">Survey results of MSME Participation in Public Procurement<br>
+    <h1 class="display-4">JITUPASNA ROB KOTABARU </h1>
+    <p class="lead">Survey pengkajian kebutuhan pasca-bencana<br>
 
-      <b>Total: {{ $resume['q_q1']['total'] }} Respondents</b>
+      <b>Total: {{ $resume['a_a8']['total'] }} Respondents</b>
 
     </p>
   </div>
@@ -103,7 +103,7 @@
             </div>
             <div class="row">
               <div class="col align-middle text-center">
-                <small class="text-muted">©SriInstitute2023</small>
+                <small class="text-muted">©HalloFajar2024</small>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
 
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      SRI Institute <br>Copyright &copy; 2021
+      HalloFajar <br>Copyright &copy; 2024
     </footer>
   </div>
   <script>

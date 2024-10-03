@@ -86,12 +86,12 @@ Coded by www.creative-tim.com
             </a>
           </li>
 
-          <li class="{{ $active == 'tablecrosstab-all' ? 'active' : '' }}">
+          {{-- <li class="{{ $active == 'tablecrosstab-all' ? 'active' : '' }}">
             <a href="{{ route('dashboard.tablecrosstab.all') }}">
               <i class="nc-icon nc-tile-56"></i>
               <p>table Crosstab</p>
             </a>
-          </li>
+          </li> --}}
 
         </ul>
       </div>

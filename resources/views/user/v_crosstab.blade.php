@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.23.0/pivot.min.css">
 
-  <title>Cross-Tab {{ $region }} </title>
+  <title>Cross-Tab JITUPASNA ROB KOTABARU </title>
 
   <style>
     .main-footer {
@@ -60,7 +60,7 @@
     <!-- Main content -->
     <!-- <section class="content"> -->
     <div class="alert alert-primary text-center">
-      <h3>Region {{ $region }} </h3>
+      <h3>Region JITUPASNA ROB KOTABARU </h3>
     </div>
     <nav>
       <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
@@ -140,7 +140,7 @@
         var renderers = $.extend($.pivotUtilities.renderers,
           $.pivotUtilities.plotly_renderers);
 
-        $.getJSON("{{ url('api/pivot_data/' . $region) }}", function(jitupasna) {
+        $.getJSON("{{ url('api/pivot_data') }}", function(jitupasna) {
           $("#loading_single").remove();
           $("#outputsingle").pivotUI(jitupasna, {
             renderers: renderers,
@@ -152,7 +152,7 @@
           });
         });
 
-        $.getJSON("{{ url('api/pivot_data_multi/' . $region) }}", function(jitupasnamulti) {
+        $.getJSON("{{ url('api/pivot_data_multi') }}", function(jitupasnamulti) {
           $("#loading_multi").remove();
 
           $("#outputmulti").pivotUI(jitupasnamulti, {

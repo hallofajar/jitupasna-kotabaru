@@ -22,7 +22,9 @@ class ApiData extends Controller
 				'url_multic' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS-LYlj8kZaH7I1K7bAe6VqTgKkpTTdZGN0WD2tORafeGAwkqsxXZN1ErBc5V8xFN4P24YwjneAqTno/pub?gid=1652927521&single=true&output=csv',
 				'url_grafik' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS-LYlj8kZaH7I1K7bAe6VqTgKkpTTdZGN0WD2tORafeGAwkqsxXZN1ErBc5V8xFN4P24YwjneAqTno/pub?gid=552506723&single=true&output=csv',
 			],
-			'pivot' => []
+			'pivot' => [
+				'a_a2_kec' => 'Kecamatan'
+			]
 		];
 
 		function pecahmulti($a, $arr)
@@ -327,11 +329,11 @@ class ApiData extends Controller
 			'grafik' => [
 				'a_a2_kec' => ['kode' => 'A.2', 'judul' => 'Kecamatan', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
 				'a_a3_desa' => ['kode' => 'A.3', 'judul' => 'Desa', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
-				'a_a4' => ['kode' => 'A.4', 'judul' => 'Kondisi Geografis', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
-				'a_a5' => ['kode' => 'A.5', 'judul' => 'Jarak Rumah dari pantai', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
-				'a_a6' => ['kode' => 'A.6', 'judul' => 'Kategori Sosial', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
+				'a_a4' => ['kode' => 'A.4', 'judul' => 'Kondisi Geografis', 'grafik' => 'pie', 'jenis_data' => 'nominal'],
+				'a_a5' => ['kode' => 'A.5', 'judul' => 'Jarak Rumah dari pantai', 'grafik' => 'pie', 'jenis_data' => 'nominal'],
+				'a_a6' => ['kode' => 'A.6', 'judul' => 'Kategori Sosial', 'grafik' => 'pie', 'jenis_data' => 'nominal'],
 				'a_a7' => ['kode' => 'A.7', 'judul' => 'Kategori Kerusakan Rumah Akibat Bencana', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
-				'a_a8' => ['kode' => 'A.8', 'judul' => 'Jenis Kelamin', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
+				'a_a8' => ['kode' => 'A.8', 'judul' => 'Jenis Kelamin', 'grafik' => 'pie', 'jenis_data' => 'nominal'],
 				'a_a9' => ['kode' => 'A.9', 'judul' => 'Usia', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
 				'a_a10' => ['kode' => 'A.10', 'judul' => 'Status perkawinan', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
 				'a_a11' => ['kode' => 'A.11', 'judul' => 'Posisi responden dalam keluarga', 'grafik' => 'bar', 'jenis_data' => 'nominal'],
@@ -837,7 +839,7 @@ class ApiData extends Controller
 
 
 
-	public function pivot_data_multi_lp($region)
+	public function pivot_data_multi_lp()
 	{
 		$header = $this->url['pivot'];
 		$pilihan = $this->setting_data()->getOriginalContent();
@@ -846,7 +848,7 @@ class ApiData extends Controller
 		$headers = [
 			'Authorization' => 'Token ' . $this->url['token'],
 		];
-		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['region'][$region] . '/data?format=json', [
+		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['form'] . '/data?format=json', [
 			// 'json' => $params,
 			'headers' => $headers,
 			'verify'  => false,
@@ -868,23 +870,6 @@ class ApiData extends Controller
 						$data_explo = explode(' ', $item2);
 						if (count($data_explo) > 0) {
 							$multi[$key][strtolower(str_replace('/', '_', $key2_name))] = $data_explo;
-						}
-					} else if (strtolower(str_replace('/', '_', $key2_name)) === '5') {
-						switch ($item2) {
-							case 'q5a':
-								$single[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Men-owned business';
-								break;
-							case 'q5c':
-								$single[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Men-owned business';
-								break;
-							case 'q5b':
-								$single[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Women-owned business';
-								break;
-							case 'q5d':
-								$single[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Women-owned business';
-								break;
-							default:
-								//code block
 						}
 					} else  if (isset($pilihan['pilihan'][$item2])) {
 						$single[$key][strtolower(str_replace('/', '_', $key2_name))] = $pilihan['pilihan'][$item2];
@@ -911,7 +896,7 @@ class ApiData extends Controller
 
 
 
-	public function pivot_data_lp($region)
+	public function pivot_data_lp()
 	{
 		$header = $this->url['pivot'];
 
@@ -923,7 +908,7 @@ class ApiData extends Controller
 		];
 
 
-		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['region'][$region] . '/data?format=json', [
+		$response = $client->request('GET', 'https://eu.kobotoolbox.org/api/v2/assets/' . $this->url['form'] . '/data?format=json', [
 			'headers' => $headers,
 			'verify'  => false,
 		]);
@@ -936,29 +921,13 @@ class ApiData extends Controller
 			foreach ($item as $key2 => $item2) {
 				if (array_key_exists(strtolower(str_replace('/', '_', $key2)), $header)) {
 					$key2_name = $header[strtolower(str_replace('/', '_', $key2))];
+
 					if (in_array(strtolower(str_replace('/', '_', $key2)), $pilihan['multi_c'])) {
 						$data_explo = explode(' ', $item2);
 						if (count($data_explo) > 0) {
 							foreach ($data_explo as $item3) {
 								$lokal1[$key][strtolower(str_replace('/', '_', $key2_name)) . '_ch-' . substr($item3, -1, 1)] = $pilihan['pilihan'][$item3];
 							}
-						}
-					} else if (strtolower(str_replace('/', '_', $key2_name)) === '5') {
-						switch ($item2) {
-							case 'q5a':
-								$lokal1[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Men-owned business';
-								break;
-							case 'q5c':
-								$lokal1[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Men-owned business';
-								break;
-							case 'q5b':
-								$lokal1[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Women-owned business';
-								break;
-							case 'q5d':
-								$lokal1[$key][strtolower(str_replace('/', '_', $key2_name))] = 'Women-owned business';
-								break;
-							default:
-								//code block
 						}
 					} else if (is_array($item2)) {
 						$lokal1[$key][strtolower(str_replace('/', '_', $key2_name))] = $item2;
@@ -970,6 +939,8 @@ class ApiData extends Controller
 				}
 			}
 		}
+
+
 
 		return response()->json($lokal1);
 	}

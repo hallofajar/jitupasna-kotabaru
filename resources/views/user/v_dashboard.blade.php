@@ -29,7 +29,7 @@
                   <div class="numbers">
                     <p class="card-category">Semua Responden</p>
                     <p class="card-title">
-                      {{ $datasurvei['sidoarjo'] + $datasurvei['surabaya'] + $datasurvei['bekasi'] + $datasurvei['jakarta timur'] + $datasurvei['bandung'] + $datasurvei['jakarta barat'] }}
+                      {{ $datasurvei['a_a8']['total'] }}
                     </p>
                   </div>
                 </div>
@@ -56,8 +56,8 @@
                 </div>
                 <div class="col-7 col-md-8">
                   <div class="numbers">
-                    <p class="card-category">laki-laki</p>
-                    <p class="card-title">15</p>
+                    <p class="card-category">{{ $datasurvei['a_a8']['ket'][0] }}</p>
+                    <p class="card-title">{{ $datasurvei['a_a8']['jumlah'][0] }}</p>
                   </div>
                 </div>
               </div>
@@ -83,8 +83,8 @@
                 </div>
                 <div class="col-7 col-md-8">
                   <div class="numbers">
-                    <p class="card-category">Perempuan</p>
-                    <p class="card-title">0</p>
+                    <p class="card-category">{{ $datasurvei['a_a8']['ket'][1] }}</p>
+                    <p class="card-title">{{ $datasurvei['a_a8']['jumlah'][1] }}</p>
                   </div>
                 </div>
               </div>
@@ -102,112 +102,6 @@
 
 
       </div>
-
-
-      {{-- <div class="row">
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Sidoarjo</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Surabaya</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Bekasi</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Jakarta Timur</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Jakarta Barat</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="card ">
-            <div class="card-header">
-              <h5 class="card-title">Bandung</h5>
-              <p class="card-category">Jumlah Responden Surveior </p>
-            </div>
-            <div class="card-body ">
-              <canvas id="chart_sumut" width="400" height="200"></canvas>
-            </div>
-            <div class="card-footer ">
-              <hr>
-              <div class="stats">
-                <i class="fa fa-history"></i> Update setiap 5 menit
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> --}}
 
     </div>
   </div>

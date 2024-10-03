@@ -19,15 +19,9 @@ class DashboardController extends Controller
 		$data = [
 			'title' => 'Dashboard',
 			'active' => 'dashboard',
-			'datasurvei' => [
-				'sidoarjo' => 0,
-				'surabaya' => 0,
-				'bekasi' => 0,
-				'bandung' => 0,
-				'jakarta timur' => 0,
-				'jakarta barat' => 0,
-			]
+			'datasurvei' => $this->apiData->resume_all()->getOriginalContent(),
 		];
+
 		return view('user.v_dashboard', $data);
 	}
 
@@ -39,7 +33,7 @@ class DashboardController extends Controller
 		];
 		return view('user.v_map', $data);
 	}
-	public function resume($region)
+	public function resume()
 	{
 
 		// Ambil Grafik
@@ -62,7 +56,8 @@ class DashboardController extends Controller
 		// }
 		// end grafik
 
-		$data_resume = $this->apiData->resume_grafik($region)->getOriginalContent();
+
+		$data_resume = $this->apiData->resume_grafik()->getOriginalContent();
 
 		// $data_resume2 = [];
 		// foreach ($data_grafik as $key => $value) {
@@ -73,8 +68,7 @@ class DashboardController extends Controller
 		$data['title'] = 'Resume';
 		$data['resume'] = $data_resume;
 		$data['color'] = $this->apiData->color()->getOriginalContent();
-		$data['active'] = 'resume ' . $region;
-		$data['region'] = $region;
+
 		return view('user/v_resume', $data);
 	}
 
@@ -128,18 +122,15 @@ class DashboardController extends Controller
 		return view('user/v_detail_responden', $data);
 	}
 
-	public function Crosstab($region)
+	public function Crosstab()
 	{
 		$data = [
 			'title' => 'Crosstab',
 			'active' => 'crosstab',
-			'region' => $region,
+			'region' => 'all',
 		];
-		if ($region == 'all') {
-			return view('user.v_crosstabAll', $data);
-		} else {
-			return view('user/v_crosstab', $data);
-		}
+
+		return view('user/v_crosstab', $data);
 	}
 	public function CrosstabAll()
 	{
@@ -172,7 +163,7 @@ class DashboardController extends Controller
 		// }
 
 
-		$data_resume = $this->apiData->resumeAllData()->getOriginalContent();
+		$data_resume = $this->apiData->resume_grafik()->getOriginalContent();
 		// $data_resume2 = [];
 		// foreach ($data_grafik as $key => $value) {
 		// 	if (isset($data_resume[$key])) {
@@ -189,19 +180,16 @@ class DashboardController extends Controller
 		return view('user/v_resume', $data);
 	}
 
-	public function printResume($region)
+	public function printResume()
 	{
-		if ($region == 'all') {
-			$data_resume = $this->apiData->resumeAllData()->getOriginalContent();
-		} else {
-			$data_resume = $this->apiData->resume_grafik($region)->getOriginalContent();
-		}
+
+		$data_resume = $this->apiData->resume_grafik()->getOriginalContent();
+
 
 		$data['title'] = 'Resume';
 		$data['resume'] = $data_resume;
 		$data['color'] = $this->apiData->color()->getOriginalContent();
-		$data['active'] = 'resume ' . $region;
-		$data['region'] = $region;
+		$data['active'] = 'resume ';
 		return view('user/v_resume_print', $data);
 	}
 
