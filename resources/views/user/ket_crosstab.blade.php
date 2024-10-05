@@ -1,950 +1,913 @@
-<div class="card-body text-primary">
-  <div class="alert alert-primary"><b>Profil dan Latar Belakang</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
+<div class='card-body text-primary'>
+  <div class='alert alert-primary'><b>List Pertanyaan</b></div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
       <tr>
-        <td>1</td>
-        <td>Jenis Kelamin Responden</td>
+        <td>A.2</td>
+        <td>Kecamatan</td>
       </tr>
       <tr>
-        <td>2</td>
-        <td>Jabatan/peran Responden di Perusahaan</td>
+        <td>A.3</td>
+        <td>Desa</td>
       </tr>
       <tr>
-        <td>2.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>A.4</td>
+        <td>Kondisi Geografis</td>
       </tr>
       <tr>
-        <td>3</td>
-        <td>Usia responden</td>
+        <td>A.5</td>
+        <td>Jarak Rumah dari pantai</td>
       </tr>
       <tr>
-        <td>4</td>
-        <td>Tingkat pendidikan tertinggi responden</td>
+        <td>A.6</td>
+        <td>Kategori Sosial</td>
       </tr>
       <tr>
-        <td>5</td>
-        <td>Kepemilikan saham utama perusahaan</td>
+        <td>A.7</td>
+        <td>Kategori Kerusakan Rumah Akibat Bencana</td>
       </tr>
       <tr>
-        <td>6</td>
-        <td>Hubungan Responden dengan pemilik usaha</td>
+        <td>A.8</td>
+        <td>Jenis Kelamin</td>
       </tr>
       <tr>
-        <td>6.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>A.9</td>
+        <td>Usia</td>
       </tr>
       <tr>
-        <td>7</td>
-        <td>Klasifikasi izin usaha yang dimiliki perusahaan</td>
+        <td>A.10</td>
+        <td>Status perkawinan</td>
       </tr>
       <tr>
-        <td>7.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>A.11</td>
+        <td>Posisi responden dalam keluarga</td>
       </tr>
       <tr>
-        <td>8</td>
-        <td>Jumlah pekerja di perusahaan</td>
+        <td>A.12</td>
+        <td>Pendidikan terakhir</td>
       </tr>
       <tr>
-        <td>9</td>
-        <td>Berapa umur usaha Anda</td>
+        <td>A.13</td>
+        <td>Jumlah anggota keluarga</td>
       </tr>
       <tr>
-        <td>10</td>
-        <td>Sektor apa saja yang digeluti oleh Perusahaan Anda? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
+        <td>A.14</td>
+        <td>Penyandang Disabilitas</td>
       </tr>
       <tr>
-        <td>10.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>A.15</td>
+        <td>Pekerjaan utama</td>
       </tr>
       <tr>
-        <td>10.b</td>
-        <td>Jika Anda menjawab perdagangan besar dan eceran pada pertanyaan 10, usaha apa yang Anda geluti?</td>
+        <td>A.16</td>
+        <td>Status Hunian</td>
       </tr>
       <tr>
-        <td>10.c</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>A.17</td>
+        <td>Status Penerimaan Bantuan Sosial dan Dukungan Sosial</td>
       </tr>
       <tr>
-        <td>11</td>
-        <td>Omset tahunan Perusahaan Anda pada tahun 2022 adalah</td>
+        <td>B.1</td>
+        <td>Pencari Nafkah</td>
       </tr>
-    </table>
-  </div>
-
-
-  <div class="alert alert-success"><b>10 Sektor apa saja yang digeluti oleh Perusahaan Anda? (Anda boleh memilih lebih
-      dari 1 (satu) jawaban)
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
       <tr>
-        <td>10_ch-a</td>
-        <td>A. Pertanian, Kehutanan dan Perikanan</td>
+        <td>B.2</td>
+        <td>Status Pekerjaan</td>
       </tr>
       <tr>
-        <td>10_ch-b</td>
-        <td>B. Konstruksi</td>
+        <td>B.3</td>
+        <td>Pencari nafkah (Setelah bencana)</td>
       </tr>
       <tr>
-        <td>10_ch-c</td>
-        <td>C. Perdagangan besar dan eceran</td>
+        <td>B.4</td>
+        <td>Pekerjaan Sampingan</td>
       </tr>
       <tr>
-        <td>10_ch-d</td>
-        <td>D. Pengangkutan dan logistik</td>
+        <td>B.5</td>
+        <td>bencana mempersulit/mengganggu pekerjaan/penghasilan</td>
       </tr>
       <tr>
-        <td>10_ch-e</td>
-        <td>E. Informasi dan Komunikasi (Peralatan)</td>
+        <td>B.6</td>
+        <td>Bentuk ganguan Penghasilan</td>
       </tr>
       <tr>
-        <td>10_ch-f</td>
-        <td>F. Industri manufaktur (termasuk industri olahan makanan)</td>
+        <td>B.7</td>
+        <td>Lama Ganguan Penghasilan</td>
       </tr>
       <tr>
-        <td>10_ch-g</td>
-        <td>G. Seni, hiburan, dan rekreasi (pertunjukan seni)</td>
+        <td>B.9</td>
+        <td>Rata-rata konsumsi Makanan Sebelum Bencana</td>
       </tr>
       <tr>
-        <td>10_ch-h</td>
-        <td>H. Kegiatan penyewaan (konferensi, pameran,, termasuk ‘event organizer)</td>
+        <td>B.10</td>
+        <td>Rata-rata konsumsi Makanan Setelah Bencana</td>
       </tr>
       <tr>
-        <td>10_ch-i</td>
-        <td>I. Jasa lainnya (organisasi/ asosiasi, fitness, salon, laundry, jasa kebersihan, internet dan multimedia
-          dll.)</td>
+        <td>B.11</td>
+        <td>Rata-rata konsumsi Non-Makanan Sebelum Bencana</td>
       </tr>
       <tr>
-        <td>10_ch-j</td>
-        <td>J. Lainnya, sebutkan</td>
+        <td>B.12</td>
+        <td>Rata-rata konsumsi Non-Makanan Setelah Bencana</td>
       </tr>
-    </table>
-  </div>
-  <div class="alert alert-success"><b>10.b Jika Anda menjawab perdagangan besar dan eceran pada pertanyaan 10, usaha apa
-      yang Anda geluti?
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
       <tr>
-        <td>10a_ch-a</td>
-        <td>A. Makanan pokok</td>
+        <td>C.1</td>
+        <td>Cadangan ekonomi bila paceklik karena bencana</td>
       </tr>
       <tr>
-        <td>10a_ch-b</td>
-        <td>B. Makanan dan minuman</td>
+        <td>C.2</td>
+        <td>Lama cadangan keluarga bisa bertahan</td>
       </tr>
       <tr>
-        <td>10a_ch-c</td>
-        <td>C. Peralatan elektronik</td>
+        <td>D.1</td>
+        <td>Upaya pulih dari gangguan akibat bencana</td>
       </tr>
       <tr>
-        <td>10a_ch-d</td>
-        <td>D. Bahan bangunan</td>
+        <td>E.1</td>
+        <td>Ganguan Kebutuhan Pangan dan Sembako</td>
       </tr>
       <tr>
-        <td>10a_ch-e</td>
-        <td>E. Kerajinan tangan</td>
+        <td>E.2</td>
+        <td>Ganguan Kebutuhan Hunian</td>
       </tr>
       <tr>
-        <td>10a_ch-f</td>
-        <td>F. Pakaian dan alas kaki</td>
+        <td>E.3</td>
+        <td>Ganguan Kebutuhan Air Bersih dan Sanitasi</td>
       </tr>
       <tr>
-        <td>10a_ch-g</td>
-        <td>G. Katering</td>
+        <td>E.4</td>
+        <td>Ganguan Kebutuhan Kesehatan</td>
       </tr>
       <tr>
-        <td>10a_ch-h</td>
-        <td>H. Baju seragam</td>
+        <td>E.5</td>
+        <td>Ganguan Kebutuhan Pendidikan Formal Dasar, Menengah & Tinggi</td>
       </tr>
       <tr>
-        <td>10a_ch-i</td>
-        <td>I. Alat tulis kantor</td>
+        <td>E.6</td>
+        <td>Ganguan Kebutuhan Pangan dan Sembako Kegiatan sosial Komunal</td>
       </tr>
       <tr>
-        <td>10a_ch-j</td>
-        <td>J. Percetakan</td>
+        <td>E.7</td>
+        <td>Ganguan Kebutuhan Perlindungan Sosial</td>
       </tr>
       <tr>
-        <td>10a_ch-k</td>
-        <td>K. Lainnya…...sebutkan</td>
+        <td>E.8</td>
+        <td>Ganguan Kebutuhan Perlindungan dari kekerasan terhadap perempuan, anak, disabilitas dan kelompok rentan
+          lainnya</td>
       </tr>
-    </table>
-  </div>
-</div>
-
-<div class="card-body text-primary">
-  <div class="alert alert-primary"><b>Pengalaman mengikuti tender pengadaan pemerintah</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
       <tr>
-        <td>12</td>
-        <td>Pernahkah Anda mencoba berpartisipasi dalam peluang pengadaan pemerintah?</td>
+        <td>E.9</td>
+        <td>Ganguan Kebutuhan Pangan dan Sembako Pengurangan Risiko Bencana Konvensional</td>
       </tr>
       <tr>
-        <td>14</td>
-        <td>Apakah menurut Anda, persepsi pebisnis perempuan dibandingkan pebisnis laki-laki berbeda dalam melihat
-          hambatan berpartisipasi dalam pengadaan pemerintah?</td>
+        <td>F.1</td>
+        <td>Gangguan ekonomi di Pertanian dan Peternakan</td>
       </tr>
       <tr>
-        <td>13</td>
-        <td>Mengapa Anda belum mencoba berpartisipasi? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
+        <td>F.2</td>
+        <td>Gangguan ekonomi di Perikanan</td>
       </tr>
       <tr>
-        <td>13.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>F.3</td>
+        <td>Gangguan ekonomi di Pariwisata</td>
       </tr>
       <tr>
-        <td>15</td>
-        <td>Apakah Anda sudah mencoba melalui website SPSE atau LPSE baik tingkat nasional, provinsi, atau
-          kabupaten/kota untuk mendaftar sebagai vendor pemerintah?</td>
+        <td>G.1</td>
+        <td>Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi krisis bencana konvensional,
+          Banjir/Longsor/Erupsi/ dll</td>
       </tr>
       <tr>
-        <td>16</td>
-        <td>Mengapa Anda belum mengakses sistem e-procurement? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
+        <td>G.2</td>
+        <td>Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi Banjir ROB</td>
       </tr>
       <tr>
-        <td>16.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>G.3</td>
+        <td>Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi Cuaca</td>
       </tr>
       <tr>
-        <td>17</td>
-        <td>Bagaimana Anda mengetahui peluang pengadaan barang/jasa pemerintah? (Anda boleh memilih lebih dari 1 (satu)
-          jawaban)</td>
+        <td>G.4</td>
+        <td>Pengambil keputusan respon terkait Informasi bencana dan cuaca</td>
       </tr>
       <tr>
-        <td>18</td>
-        <td>Bagaimana Anda mengetahui peluang pengadaan barang/jasa pemerintah? (Anda boleh memilih lebih dari 1 (satu)
-          jawaban)</td>
+        <td>H.1</td>
+        <td> aspirasi pemulihan / peningkatan kapasitas / pengurangan kerentanan akibat bencana</td>
       </tr>
       <tr>
-        <td>18.a</td>
-        <td>Jika lainnya, sebutkan….</td>
+        <td>H.2</td>
+        <td>Kebutuhan dukungan Komunal/Kolektif/Masyarakat untuk Pemulihan bencana ROB</td>
       </tr>
       <tr>
-        <td>19</td>
-        <td>Untuk proyek di sektor manakah, Perusahaan Anda ikut tender? (Anda boleh memilih lebih dari 1 (satu)
-          jawaban)</td>
+        <td>H.3</td>
+        <td>Kebutuhan dukungan/ perlindungan sosial (jaminan sosial dan bantuan sosial) berbasis keluarga untuk
+          pemulihan bencana</td>
       </tr>
       <tr>
-        <td>19.a</td>
-        <td>Jika lainnya, sebutkan….</td>
-      </tr>
-      <tr>
-        <td>20</td>
-        <td>Paket pengadaan pemerintah manakah yang diikuti oleh perusahaan Anda? (Anda boleh memilih lebih dari 1
-          (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>21</td>
-        <td>Berapa kali perusahaan Anda berpartisipasi dalam tender pengadaan pemerintah dalam 12 bulan terakhir?</td>
-      </tr>
-      <tr>
-        <td>22</td>
-        <td>Apakah perusahaan Anda pernah memenangkan kontrak dari proses pengadaan?</td>
-      </tr>
-      <tr>
-        <td>23</td>
-        <td>Berapa nilai rata-rata/skala kontrak tender yang Perusahaan Anda ikuti?</td>
-      </tr>
-      <tr>
-        <td>24</td>
-        <td>Jenis paket tender apa saja yang pernah Anda ikuti? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>25</td>
-        <td>Paket 'Non Tender' manakah yang Perusahaan Anda pernah diundang/ diikuti? (Anda boleh memilih lebih dari 1
-          (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>26</td>
-        <td>Elemen manakah yang biasanya menjadi pertimbangan utama Perusahaan Anda ketika mengikuti proses pengadaan?
-          (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-    </table>
-  </div>
-
-
-  <div class="alert alert-success"><b>Q13. Mengapa Anda belum mencoba berpartisipasi? (Anda boleh memilih lebih dari 1
-      (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>13_ch-a</td>
-        <td>A. Tidak tahu caranya/ tidak memiliki akses pada informasi pengadaan</td>
-      </tr>
-      <tr>
-        <td>13_ch-b</td>
-        <td>B. Mencoba, tapi rumit</td>
-      </tr>
-      <tr>
-        <td>13_ch-c</td>
-        <td>C. Perusahaan masih kekurangan keahlian</td>
-      </tr>
-      <tr>
-        <td>13_ch-d</td>
-        <td>D. Tidak memenuhi persyaratan yang dibutuhkan</td>
-      </tr>
-      <tr>
-        <td>13_ch-e</td>
-        <td>E. Kekhawatiran tidak akan menang</td>
-      </tr>
-      <tr>
-        <td>13_ch-f</td>
-        <td>F. Kekhawatiran tidak memenuhi persyaratan yang telah ditetapkan</td>
-      </tr>
-      <tr>
-        <td>13_ch-g</td>
-        <td>G. Khawatir dengan birokrasi yang rumit</td>
-      </tr>
-      <tr>
-        <td>13_ch-h</td>
-        <td>H. Kekhawatiran terhadap korupsi</td>
-      </tr>
-      <tr>
-        <td>13_ch-i</td>
-        <td>I. Kekhawatiran akan 'harga' yang akan berbeda (ada mark up) dengan harga sebenarnya</td>
-      </tr>
-      <tr>
-        <td>13_ch-j</td>
-        <td>J. Skala - Paket penawaran terlalu besar</td>
-      </tr>
-      <tr>
-        <td>13_ch-k</td>
-        <td>K. Kurangnya dana/modal</td>
-      </tr>
-      <tr>
-        <td>13_ch-l</td>
-        <td>L. Tidak ada akses terhadap kredit bank untuk mendukung pendanaan awal pengerjaan proyek</td>
-      </tr>
-      <tr>
-        <td>13_ch-m</td>
-        <td>M. Kekhawatiran tentang diskriminasi karena alasan gender</td>
-      </tr>
-      <tr>
-        <td>13_ch-n</td>
-        <td>N. Tempo pembayaran yang terlalu lama</td>
-      </tr>
-      <tr>
-        <td>13_ch-o</td>
-        <td>O. Tidak tertarik</td>
-      </tr>
-      <tr>
-        <td>13_ch-p</td>
-        <td>P. Lainnya..............</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b>Q16. Mengapa Anda belum mengakses sistem e-procurement? (Anda boleh memilih lebih
-      dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>16_ch-a</td>
-        <td>A. Mencoba, tapi rumit</td>
-      </tr>
-      <tr>
-        <td>16_ch-b</td>
-        <td>B. Tidak tahu bagaimana (tidak ada panduan yang jelas)</td>
-      </tr>
-      <tr>
-        <td>16_ch-c</td>
-        <td>C. Tidak tertarik</td>
-      </tr>
-      <tr>
-        <td>16_ch-d</td>
-        <td>D. Ini memakan waktu terlalu lama</td>
-      </tr>
-      <tr>
-        <td>16_ch-e</td>
-        <td>E. Koneksi internet lambat</td>
-      </tr>
-      <tr>
-        <td>16_ch-f</td>
-        <td>F. Tidak akrab dengan internet.</td>
-      </tr>
-      <tr>
-        <td>16_ch-g</td>
-        <td>G. Lainnya</td>
-      </tr>
-
-    </table>
-  </div>
-
-
-  <div class="alert alert-success"><b>Q17. Bagaimana Anda mengetahui peluang pengadaan barang/jasa pemerintah? (Anda
-      boleh memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>17_ch-a</td>
-        <td>A. Mengakses Situs SPSE nasionalMengakses Situs LPSE lembaga/badan/kementerian nasional</td>
-      </tr>
-      <tr>
-        <td>17_ch-b</td>
-        <td>B. Mengakses Situs LPSE lembaga/badan/kementerian nasional</td>
-      </tr>
-      <tr>
-        <td>17_ch-c</td>
-        <td>C. Mengakses Situs LPSE provinsi</td>
-      </tr>
-      <tr>
-        <td>17_ch-d</td>
-        <td>D. Mengakses Situs LPSE kabupaten/kota.</td>
-      </tr>
-      <tr>
-        <td>17_ch-e</td>
-        <td>E. Dari Asosiasi Pengusaha/UMKM</td>
-      </tr>
-      <tr>
-        <td>17_ch-f</td>
-        <td>F. Dari sesama UMKM</td>
-      </tr>
-      <tr>
-        <td>17_ch-g</td>
-        <td>G. Dari sumber lain</td>
-      </tr>
-      <tr>
-        <td>17_ch-h</td>
-        <td>H. Tidak tahu</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b> Q18. Bagaimana Anda mengetahui peluang pengadaan barang/jasa pemerintah? (Anda
-      boleh memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>18_ch-a</td>
-        <td>A. Kementerian</td>
-      </tr>
-      <tr>
-        <td>18_ch-b</td>
-        <td>B. Dinas Provinsi setempat</td>
-      </tr>
-      <tr>
-        <td>18_ch-c</td>
-        <td>C. Dinas Kabupaten/Kota setempat</td>
-      </tr>
-      <tr>
-        <td>18_ch-d</td>
-        <td>D. Dinas Provinsi di luar lokasi perusahaan</td>
-      </tr>
-      <tr>
-        <td>18_ch-e</td>
-        <td>E. Dinas Kabupaten/Kota Di luar lokasi perusahaan</td>
-      </tr>
-      <tr>
-        <td>18_ch-f</td>
-        <td>F. Lainnya</td>
-      </tr>
-      <tr>
-        <td>18_ch-g</td>
-        <td>G. Tidak tahu</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b> Q19. Untuk proyek di sektor manakah, Perusahaan Anda ikut tender? (Anda boleh
-      memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>19_ch-a</td>
-        <td>A. Pekerjaan Umum dan Perumahan Rakyat (atau nomenklatur yang setara)</td>
-      </tr>
-      <tr>
-        <td>19_ch-b</td>
-        <td>B. Transportasi (atau nomenklatur yang setara)</td>
-      </tr>
-      <tr>
-        <td>19_ch-c</td>
-        <td>C. Perdagangan (atau nomenklatur yang setara)</td>
-      </tr>
-      <tr>
-        <td>19_ch-d</td>
-        <td>D. Kesehatan</td>
-      </tr>
-      <tr>
-        <td>19_ch-e</td>
-        <td>E. Pendidikan dan Kebudayaan</td>
-      </tr>
-      <tr>
-        <td>19_ch-f</td>
-        <td>F. Pelayanan Sosial (atau nomenklatur yang setara)</td>
-      </tr>
-      <tr>
-        <td>19_ch-g</td>
-        <td>G. Pertanian</td>
-      </tr>
-      <tr>
-        <td>19_ch-h</td>
-        <td>H. Layanan lainnya.................................</td>
-      </tr>
-      <tr>
-        <td>19_ch-i</td>
-        <td>I. Tidak tahu</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b> Q20. Paket pengadaan pemerintah manakah yang diikuti oleh perusahaan Anda? (Anda
-      boleh memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>20_ch-a</td>
-        <td>A. e-purchasing (berdasarkan e-katalog)</td>
-      </tr>
-      <tr>
-        <td>20_ch-b</td>
-        <td>B. Tender (national/ internasional)</td>
-      </tr>
-      <tr>
-        <td>20_ch-c</td>
-        <td>C. Tender Cepat</td>
-      </tr>
-      <tr>
-        <td>20_ch-d</td>
-        <td>D. Pengadaan Langsung (Non-tender)</td>
-      </tr>
-      <tr>
-        <td>20_ch-e</td>
-        <td>E. Penunjukan/seleksi Langsung (Non-tender)</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b> Q24. Jenis paket tender apa saja yang pernah Anda ikuti? (Anda boleh memilih
-      lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>24_ch-a</td>
-        <td>A. Pengadaan Barang.</td>
-      </tr>
-      <tr>
-        <td>24_ch-b</td>
-        <td>B. Jasa Konsultasi badan Usaha Non Konstruksi</td>
-      </tr>
-      <tr>
-        <td>24_ch-c</td>
-        <td>C. Pekerjaan Konstruksi</td>
-      </tr>
-      <tr>
-        <td>24_ch-d</td>
-        <td>D. Jasa lainnya</td>
-      </tr>
-      <tr>
-        <td>24_ch-e</td>
-        <td>E. Jasa Konsultansi Perorangan Non Konstruksi</td>
-      </tr>
-      <tr>
-        <td>24_ch-f</td>
-        <td>F. Jasa Konsultansi Badan Usaha Konstruksi</td>
-      </tr>
-      <tr>
-        <td>24_ch-g</td>
-        <td>G. Jasa Konsultansi Perorangan Konstruksi</td>
-      </tr>
-      <tr>
-        <td>24_ch-h</td>
-        <td>H. Pekerjaan Konstruksi Terintegrasi</td>
-      </tr>
-      <tr>
-        <td>24_ch-i</td>
-        <td>I. Tidak ada</td>
-      </tr>
-
-    </table>
-  </div>
-  <div class="alert alert-success"><b> Q25. Paket 'Non Tender' manakah yang Perusahaan Anda pernah diundang/ diikuti?
-      (Anda boleh memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>25_ch-a</td>
-        <td>A. Pengadaan langsung bernilai kurang dr 100 juta</td>
-      </tr>
-      <tr>
-        <td>25_ch-b</td>
-        <td>B. Pengadaan langsung bernilai Rp 100- <200 juta</td>
-      </tr>
-      <tr>
-        <td>25_ch-c</td>
-        <td>C. Seleksi/penunjukan langsung di atas 200 juta</td>
-      </tr>
-      <tr>
-        <td>25_ch-d</td>
-        <td>D. Tidak ada</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b> Q26. Elemen manakah yang biasanya menjadi pertimbangan utama Perusahaan Anda
-      ketika mengikuti proses pengadaan? (Anda boleh memilih lebih dari 1 (satu) jawaban)</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>26_ch-a</td>
-        <td>A. Nilai kontrak</td>
-      </tr>
-      <tr>
-        <td>26_ch-b</td>
-        <td>B. Jenis pengadaan</td>
-      </tr>
-      <tr>
-        <td>26_ch-c</td>
-        <td>C. Kepatuhan prosedur</td>
-      </tr>
-      <tr>
-        <td>26_ch-d</td>
-        <td>D. Jangka waktu</td>
-      </tr>
-      <tr>
-        <td>26_ch-e</td>
-        <td>E. Kesempatan untuk menang</td>
-      </tr>
-      <tr>
-        <td>26_ch-f</td>
-        <td>F. Lainnya</td>
-      </tr>
-
-    </table>
-  </div>
-</div>
-
-<div class="card-body text-primary">
-  <div class="alert alert-primary"><b>Ekosistem - Lingkungan Pendukung Bisnis untuk Mendorong Partisipasi UMKM dalam
-      Pengadaan Pemerintah</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>27</td>
-        <td>Apakah Anda tahu bahwa ada peraturan yang mengizinkan usaha mikro, kecil, dan menengah untuk mengikuti
-          tender pengadaan barang dan jasa pemerintah senilai hingga Rp15 miliar?</td>
-      </tr>
-      <tr>
-        <td>28</td>
-        <td>Apakah Anda mengetahui adanya kebijakan yang mengutamakan partisipasi usaha milik perempuan dalam pengadaan
-          publik?</td>
-      </tr>
-      <tr>
-        <td>29</td>
-        <td>Apakah Anda tertarik untuk mengetahui lebih lanjut bagaimana perusahaan Anda dapat mengakses pengadaan
-          pemerintah?</td>
-      </tr>
-      <tr>
-        <td>30</td>
-        <td>30. Apakah Anda ingin memanfaatkan peluang peraturan baru tersebut ?</td>
-      </tr>
-      <tr>
-        <td>31</td>
-        <td>31. Apakah jenis pinjaman Perusahaan Anda saat ini, baik pinjaman/kredit dari bank, maupun dari lembaga
-          keuangan non-perbankan lainnya? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>31.a</td>
-        <td>31a. Jika lainnya, sebutkan….</td>
-      </tr>
-      <tr>
-        <td>32</td>
-        <td>32. Bentuk dukungan pemerintah apa saja yang Perusahaan Anda dapatkan dalam memfasilitasi partisipasi UMKM
-          dalam pengadaan pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-    </table>
-  </div>
-
-
-  <div class="alert alert-success"><b>31. Apakah jenis pinjaman Perusahaan Anda saat ini, baik pinjaman/kredit dari
-      bank, maupun dari lembaga keuangan non-perbankan lainnya? (Anda boleh memilih lebih dari 1 (satu) jawaban)
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>31_ch-a</td>
-        <td>A. Kredit bank</td>
-      </tr>
-      <tr>
-        <td>31_ch-b</td>
-        <td>B. Pinjaman Koperasi Kredit</td>
-      </tr>
-      <tr>
-        <td>31_ch-c</td>
-        <td>C. Kredit ekuitas modal ventura</td>
-      </tr>
-      <tr>
-        <td>31_ch-d</td>
-        <td>D. Pinjaman dari kerabat dan teman</td>
-      </tr>
-      <tr>
-        <td>31_ch-e</td>
-        <td>E. Kredit online</td>
-      </tr>
-      <tr>
-        <td>31_ch-f</td>
-        <td>F. Pinjaman dari pemberi pinjaman tradisional.</td>
-      </tr>
-      <tr>
-        <td>31_ch-g</td>
-        <td>G. Tidak tahu</td>
-      </tr>
-      <tr>
-        <td>31_ch-h</td>
-        <td>H. Tidak ada pinjaman.</td>
-      </tr>
-      <tr>
-        <td>31_ch-i</td>
-        <td>I. Lainnya…..sebutkan</td>
-      </tr>
-
-    </table>
-  </div>
-  <div class="alert alert-success"><b>32. Bentuk dukungan pemerintah apa saja yang Perusahaan Anda dapatkan dalam
-      memfasilitasi partisipasi UMKM dalam pengadaan pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>32_ch-a</td>
-        <td>A. Pembinaan dan pendampingan khusus</td>
-      </tr>
-      <tr>
-        <td>32_ch-b</td>
-        <td>B. Penyebaran informasi</td>
-      </tr>
-      <tr>
-        <td>32_ch-c</td>
-        <td>C. Tidak pernah</td>
-      </tr>
-      <tr>
-        <td>32_ch-d</td>
-        <td>D. Tidak tahu</td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-
-
-<div class="card-body text-primary">
-  <div class="alert alert-primary"><b>Manfaat Berpartisipasi dalam Pengadaan Pemerintah</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>33</td>
-        <td>33. Berapa persentase pendapatan tahunan perusahaan Anda yang berasal dari kontrak pengadaan pemerintah?
+        <td>H.4</td>
+        <td>Kebutuhan Dukungan/ Perlindungan Sosial (Jaminan Sosial dan Bantuan Sosial) kelompok rentan dalam keluarga
         </td>
       </tr>
-      <tr>
-        <td>34</td>
-        <td>34. Apa manfaat terbesar yang Perusahaan Anda dapatkan dari berpartisipasi dalam pengadaan pemerintah? (Anda
-          boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>34.a</td>
-        <td>34a. Jika lainnya, sebutkan….</td>
-      </tr>
-
     </table>
   </div>
 
 
-  <div class="alert alert-success"><b>34. Apa manfaat terbesar yang Perusahaan Anda dapatkan dari berpartisipasi dalam
-      pengadaan pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)
+  <div class='alert alert-success'>
+    <b>A.17 Status Penerimaan Bantuan Sosial dan Dukungan Sosial
     </b>
   </div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
       <tr>
-        <td>34_ch-a</td>
-        <td>A. Aliran pendapatan yang stabil</td>
+        <td>a.17-ch_1</td>
+        <td>BLT</td>
       </tr>
       <tr>
-        <td>34_ch-b</td>
-        <td>B. Peningkatan pendapatan dan keuntungan</td>
+        <td>a.17-ch_2</td>
+        <td>Subsidi Listrik</td>
       </tr>
       <tr>
-        <td>34_ch-c</td>
-        <td>C. Peningkatan variasi produk yang dihasilkan</td>
+        <td>a.17-ch_3</td>
+        <td>Pra Kerja</td>
       </tr>
       <tr>
-        <td>34_ch-d</td>
-        <td>D. Perluasan bisnis ke lini produk baru dan pasar baru</td>
+        <td>a.17-ch_4</td>
+        <td>Bansos Bencana</td>
       </tr>
       <tr>
-        <td>34_ch-e</td>
-        <td>E. Peningkatan reputasi dan portofolio bisnis</td>
-      </tr>
-      <tr>
-        <td>34_ch-f</td>
-        <td>F. Peningkatan jumlah karyawan</td>
-      </tr>
-      <tr>
-        <td>34_ch-g</td>
-        <td>G. Peluang jejaring yang lebih baik, terutama terkait dengan vendor potensial</td>
-      </tr>
-      <tr>
-        <td>34_ch-h</td>
-        <td>H. Lainnya ....sebutkan</td>
-      </tr>
-
-    </table>
-  </div>
-
-</div>
-
-
-<div class="card-body text-primary">
-  <div class="alert alert-primary"><b>Rencana Ke Depan</b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>35</td>
-        <td>35. Situasi apa yang perlu diperbaiki agar dapat membantu bisnis Anda untuk dapat mengambil bagian sebagai
-          vendor pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>36</td>
-        <td>36. Program/kegiatan/dukungan apa yang dibutuhkan Perusahaan Anda agar dapat berpartisipasi secara efektif
-          dalam pengadaan barang dan jasa pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)</td>
-      </tr>
-      <tr>
-        <td>36.a</td>
-        <td>36a. Jika lainnya, sebutkan….</td>
-      </tr>
-
-    </table>
-  </div>
-
-  <div class="alert alert-success"><b>35. Situasi apa yang perlu diperbaiki agar dapat membantu bisnis Anda untuk dapat
-      mengambil bagian sebagai vendor pemerintah? (Anda boleh memilih lebih dari 1 (satu) jawaban)
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>35_ch-a</td>
-        <td>A. Pedoman pengadaan dalam bahasa yang lebih sederhana</td>
-      </tr>
-      <tr>
-        <td>35_ch-b</td>
-        <td>B. Prosedur yang lebih mudah</td>
-      </tr>
-      <tr>
-        <td>35_ch-c</td>
-        <td>C. Tutorial yang menarik</td>
-      </tr>
-      <tr>
-        <td>35_ch-d</td>
-        <td>D. Insentif yang lebih besar untuk melibatkan partisipasi usaha milik perempuan sebagai subkontraktor utama.
-        </td>
-      </tr>
-      <tr>
-        <td>35_ch-e</td>
-        <td>E. Pengumuman tentang peluang pengadaan dan informasi yang jelas tentang beragam paket pengadaan yang
-          ditugaskan dalam kontrak</td>
-      </tr>
-      <tr>
-        <td>35_ch-f</td>
-        <td>F. Akses mudah ke pembiayaan</td>
-      </tr>
-      <tr>
-        <td>35_ch-g</td>
-        <td>G. Waktu yang cukup untuk mempersiapkan dokumen tender atau prosedur yang lebih sederhana untuk
-          berpartisipasi dalam tender</td>
-      </tr>
-      <tr>
-        <td>35_ch-h</td>
-        <td>H. Mekanisme khusus untuk memastikan UMKM dapat berpartisipasi dalam pengadaan pemerintah</td>
-      </tr>
-      <tr>
-        <td>35_ch-i</td>
-        <td>I. Pengumuman peluang pengadaan diteruskan via situs Asosiasi Bisnis (seperti IWAPI, ASPPUK, APINDO, KADIN)
-        </td>
-      </tr>
-      <tr>
-        <td>35_ch-j</td>
-        <td>J. Pengumuman e-katalog melalui media sosial yang dikelola asosiasi bisnis dan pengusaha (KADIN, APINDO dan
-          sejenisnya)</td>
-      </tr>
-      <tr>
-        <td>35_ch-k</td>
-        <td>K. Pengumuman e-katalog melalui media sosial yang dikelola asosiasi bisnis milik perempuan (IWAPI, ASPPUK)
-        </td>
-      </tr>
-      <tr>
-        <td>35_ch-l</td>
-        <td>L. Pemerintah meningkatkan transparansi informasi kepada publik mengenai jumlah (dan persentase) UMKM milik
-          perempuan yang berpartisipasi dalam pengadaan pemerintah</td>
-      </tr>
-      <tr>
-        <td>35_ch-m</td>
-        <td>M. Usaha milik perempuan mendapat perlakuan khusus/preferensi dibandingkan dengan usaha milik laki-laki.
-        </td>
-      </tr>
-      <tr>
-        <td>35_ch-n</td>
-        <td>N. Persyaratan tender yang tidak berlebihan, misalnya standar industri, sertifikasi</td>
-      </tr>
-      <tr>
-        <td>35_ch-o</td>
-        <td>O. Tidak tahu</td>
-      </tr>
-
-    </table>
-  </div>
-  <div class="alert alert-success"><b>36. Program/kegiatan/dukungan apa yang dibutuhkan Perusahaan Anda agar dapat
-      berpartisipasi secara efektif dalam pengadaan barang dan jasa pemerintah? (Anda boleh memilih lebih dari 1 (satu)
-      jawaban)
-    </b></div>
-  <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-      <tr>
-        <td>36_ch-a</td>
-        <td>A. Komitmen serius pemerintah untuk melaksanakan kuota 40% bagi UMKM seperti tertera pada peraturan yang
-          baru</td>
-      </tr>
-      <tr>
-        <td>36_ch-b</td>
-        <td>B. Pelatihan praktis terkait pengadaan barang dan jasa di pemerintahan</td>
-      </tr>
-      <tr>
-        <td>36_ch-c</td>
-        <td>C. Pendampingan untuk persiapan pra-tender</td>
-      </tr>
-      <tr>
-        <td>36_ch-d</td>
-        <td>D. Suku bunga bank yang lebih rendah</td>
-      </tr>
-      <tr>
-        <td>36_ch-e</td>
-        <td>E. Kemudahan mengakses informasi tender (memungkinkan interaksi via email/SMS)</td>
-      </tr>
-      <tr>
-        <td>36_ch-f</td>
-        <td>F. Kemudahan akses, prosedur, dan syarat pendaftaran usaha</td>
-      </tr>
-      <tr>
-        <td>36_ch-g</td>
-        <td>G. Kesempatan berjejaring yang lebih baik, khususnya pada pengada layanan potensial.</td>
-      </tr>
-      <tr>
-        <td>36_ch-h</td>
-        <td>H. Subsidi Pajak</td>
-      </tr>
-      <tr>
-        <td>36_ch-i</td>
-        <td>I. Lainnya…..sebutkan</td>
+        <td>a.17-ch_5</td>
+        <td>Lainnya</td>
       </tr>
     </table>
   </div>
+  <div class='alert alert-success'>
+    <b>B.1 Pencari Nafkah
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>b.1-ch_1</td>
+        <td>Suami</td>
+      </tr>
+      <tr>
+        <td>b.1-ch_2</td>
+        <td>Istri</td>
+      </tr>
+      <tr>
+        <td>b.1-ch_3</td>
+        <td>Anak</td>
+      </tr>
+      <tr>
+        <td>b.1-ch_4</td>
+        <td>Lainnya</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>B.3 Pencari nafkah (Setelah bencana)
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>b.3-ch_1</td>
+        <td>Suami</td>
+      </tr>
+      <tr>
+        <td>b.3-ch_2</td>
+        <td>Istri</td>
+      </tr>
+      <tr>
+        <td>b.3-ch_3</td>
+        <td>Anak</td>
+      </tr>
+      <tr>
+        <td>b.3-ch_4</td>
+        <td>Lainnya</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>B.6 Bentuk ganguan Penghasilan
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>b.6-ch_1</td>
+        <td>Gangguan Uang Modal Usaha (Modal lancar untuk produksi)</td>
+      </tr>
+      <tr>
+        <td>b.6-ch_2</td>
+        <td>Gangguan asset sarana produksi (perikanan, nelayan, sawah, warung, dapur, pabrik, Gudang, kendaraan dll)
+        </td>
+      </tr>
+      <tr>
+        <td>b.6-ch_3</td>
+        <td>Gangguan SDM (Menjadi cacat, mati, sakit, pekerja keluar bagi pengusaha, dll)</td>
+      </tr>
+      <tr>
+        <td>b.6-ch_4</td>
+        <td>Gangguan Distribusi (jalur pasok rusak, tidak ada distributor, tidak ada pengepul hasil, dll)</td>
+      </tr>
+      <tr>
+        <td>b.6-ch_5</td>
+        <td>Gangguan Pasar (tidak ada per-mintaan, pasar rusak, pembelian berhenti membeli, dll)</td>
+      </tr>
+      <tr>
+        <td>b.6-ch_6</td>
+        <td>Gangguan lain-lain (dipecat, tidak ada support kebijakan, riset, training, dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>D.1 Upaya pulih dari gangguan akibat bencana
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>d.1-ch_1</td>
+        <td>Menolong diri sendiri dengan koperasi, tabungan, arisan, asuransi dll.</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_2</td>
+        <td>Ganti pekerjaan, diversifikasi usaha untuk kurangi risiko, adaptasi cara berusaha dll</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_3</td>
+        <td>Mengandalkan Bantuan pemerintah, bantuan pihak lain, sumbangan, donasi, dll</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_4</td>
+        <td>Berhutang dengan berbagai bentuk pinjaman.</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_5</td>
+        <td>Menjual asset, menebang pohon, menjual ternak,menyewakan tanah, Hutang, dll.</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_6</td>
+        <td>Mengurangi konsumsi, tidak ke berobat, anak tidak sekolah, tidak amerokok,dll</td>
+      </tr>
+      <tr>
+        <td>d.1-ch_7</td>
+        <td>Anak dipekerjakan, anggota keluarga menjadi buruh migrant, dll</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.1 Ganguan Kebutuhan Pangan dan Sembako
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.1-ch_1</td>
+        <td>Sulit menjangkau pasar karena bencana, fasilitas pasar belum pulih, kerusakan pasar, akses menuju pasar
+          semakin sulit akibat bencana.</td>
+      </tr>
+      <tr>
+        <td>e.1-ch_2</td>
+        <td>Harga-harga pangan dan sembako naik menjadi tidak terjangkau atau ada kelangkaan komoditas, dll.</td>
+      </tr>
+      <tr>
+        <td>e.1-ch_3</td>
+        <td>Pasokan pangan dan sembako memburuk, jalur distribusi terhambat oleh bencana, gudang pasokan rusak, dll.
+        </td>
+      </tr>
+      <tr>
+        <td>e.1-ch_4</td>
+        <td>Gangguan Lain-Lain Terkait ketersediaan sembako dan pangan.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.2 Ganguan Kebutuhan Hunian
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.2-ch_1</td>
+        <td>Sejak sebelum bencana tidak memiliki rumah sendiri (masih menumpang atau menyewa).</td>
+      </tr>
+      <tr>
+        <td>e.2-ch_2</td>
+        <td>Rumah sewa atau rumah tumpangan rusak karena bencana.</td>
+      </tr>
+      <tr>
+        <td>e.2-ch_3</td>
+        <td>Rumah sendiri rusak karena bencana.</td>
+      </tr>
+      <tr>
+        <td>e.2-ch_4</td>
+        <td>Bencana menyebabkan menurunnya kemampuan untuk membangun rumah sendiri.</td>
+      </tr>
+      <tr>
+        <td>e.2-ch_5</td>
+        <td>Harus mengeluarkan biaya untuk perabotan rumah tangga yang hilang atau rusak akibat bencana</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.3 Ganguan Kebutuhan Air Bersih dan Sanitasi
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.3-ch_1</td>
+        <td>Sumber air (sumur, sungai, mata air, dll) terganggu, kualitas airnya menurun, instalasi sumber air rusak
+          sebagai akibat bencana.</td>
+      </tr>
+      <tr>
+        <td>e.3-ch_2</td>
+        <td>Sulit menjangkau penyedia (PDAM, AMDK, dll), harga air bersih naik menjadi tidak terjangkau atau ada
+          kelangkaan penyedia air bersih, dll.</td>
+      </tr>
+      <tr>
+        <td>e.3-ch_3</td>
+        <td>Jalur pasokan air bersih memburuk, jalur distribusi terhambat oleh bencana, reservoir rusak, instalasi
+          distribusi PDAM rusak, dll.</td>
+      </tr>
+      <tr>
+        <td>e.3-ch_4</td>
+        <td>Mengeluarkan biaya tambahan karena harus membeili air bersih</td>
+      </tr>
+      <tr>
+        <td>e.3-ch_5</td>
+        <td>Meningkatnya risiko kekerasan berbasis gender karena sumber air jauh dan tidak aman</td>
+      </tr>
+      <tr>
+        <td>e.3-ch_6</td>
+        <td>Gangguan Lain-Lain Terkait ketersediaan air bersih (tempat/bak penyimpanan rusak, alat pengambilan/pompa
+          rusak, dll.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.4 Ganguan Kebutuhan Kesehatan
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.4-ch_1</td>
+        <td>Ongkos Transportasi semakin mahal, aksesnya sulit. Harga-Harga Layanan Kesehatan, Obat, Alat Medis Semakin
+          Tak Terjangkau karena gangguan ekonomi pada matapencaharian</td>
+      </tr>
+      <tr>
+        <td>e.4-ch_2</td>
+        <td>Alat, obat dan tenaga medis kurang, kerusakan bangunan pusat layanan Kesehatan Tidak tersedia layanan
+          Kesehatan mental dll</td>
+      </tr>
+      <tr>
+        <td>e.4-ch_3</td>
+        <td>Kurangnya dukungan kuratif, promosi Kesehatan, Pendidikan Pencegahan Penyakit dan gizi buruk.</td>
+      </tr>
+      <tr>
+        <td>e.4-ch_4</td>
+        <td>Gangguan Lain-Lain Terkait Pelayanan. (Asuransi/Bantuan Askes rumit/regulasi/ dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.5 Ganguan Kebutuhan Pendidikan Formal Dasar, Menengah & Tinggi
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.5-ch_1</td>
+        <td>Biaya ke sekolah semakin terasa mahal karena jalan rusak . SPP / Uang Gedung / Uang Pangkal semakin tak
+          terjangkau sebagai akibat dari terganggunya mata pencaharian</td>
+      </tr>
+      <tr>
+        <td>e.5-ch_2</td>
+        <td>Bantuan-bantuan pendidikan (beasiswa, paket data dll) tidak merata dan tidak mencapai yang berhak.</td>
+      </tr>
+      <tr>
+        <td>e.5-ch_3</td>
+        <td>Sekolah terhenti karena biaya digunakan untuk perbaikan rumah dan kebutuhan hidup sehari-hari</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.6 Ganguan Kebutuhan Pangan dan Sembako Kegiatan sosial Komunal
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.6-ch_1</td>
+        <td>Sebelum bencana, saya pernah terlibat kegiatan serupa.</td>
+      </tr>
+      <tr>
+        <td>e.6-ch_2</td>
+        <td>Sebelum bencana, saya pernah menyelenggarakan kegiatan serupa.</td>
+      </tr>
+      <tr>
+        <td>e.6-ch_3</td>
+        <td>Setelah bencana, saya pernah terlibat kegiatan serupa.</td>
+      </tr>
+      <tr>
+        <td>e.6-ch_4</td>
+        <td>Setelah bencana, saya pernah menyelenggarakan kegiatan serupa.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.7 Ganguan Kebutuhan Perlindungan Sosial
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.7-ch_1</td>
+        <td>Program bantuan/ dukungan kurang responsif miskin baru atau kelompok rentan baru akibat bencana.</td>
+      </tr>
+      <tr>
+        <td>e.7-ch_2</td>
+        <td>Pendaftaran Penerima Bantuan Sosial Rumit dan korban bencana kurang mendapat sosialisasi bantuan sosial.
+        </td>
+      </tr>
+      <tr>
+        <td>e.7-ch_3</td>
+        <td>Pendistribusian bantuan sosial tidak tepat sasaran sehingga tidak semua kelompok rentan menerima (ada
+          ekslusi).</td>
+      </tr>
+      <tr>
+        <td>e.7-ch_4</td>
+        <td>Tempat penerimaan dan Distribusi Batuan Sosial jauh, sulit dijangkau</td>
+      </tr>
+      <tr>
+        <td>e.7-ch_5</td>
+        <td>Sosialisasi dan akuntabilitas dukungan dan bantuan sosial terbatas.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.8 Ganguan Kebutuhan Perlindungan dari kekerasan terhadap perempuan, anak, disabilitas dan kelompok rentan
+      lainnya
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.8-ch_1</td>
+        <td>Saya masih mendengar dan mengetahui kekerasan terhadap perempuan dan kelompok rentan di lingkungan tinggal.
+        </td>
+      </tr>
+      <tr>
+        <td>e.8-ch_2</td>
+        <td>Tempat pengaduan kekerasan dan kualitas layanan tempat pengaduan kekerasan terhadap perempuan dan kelompok
+          rentan memburuk.</td>
+      </tr>
+      <tr>
+        <td>e.8-ch_3</td>
+        <td>Daya dukung komunitas untuk perlindungan kekerasan terhadap perempuan dan kelompok rentan semakin menurun
+          karena bencana.</td>
+      </tr>
+      <tr>
+        <td>e.8-ch_4</td>
+        <td>Kampanye dan Pendidikan Masyarakat tentang Perlindungan Kekerasan terhadap Perempuan dan kelompok Rentan
+          semakin menurun.</td>
+      </tr>
+      <tr>
+        <td>e.8-ch_5</td>
+        <td>Kurangnya akses terhadap pembelaan terhadap korban kekerasan terhadap perempuan dan kelompok rentan.
+          (Advokat, para-legal, pendamping korban, dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>E.9 Ganguan Kebutuhan Pangan dan Sembako Pengurangan Risiko Bencana Konvensional
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>e.9-ch_1</td>
+        <td>Sejak sebelum bencana sudah pernah terlibat atau mendengar pelatihan pencegahan risiko bencana.</td>
+      </tr>
+      <tr>
+        <td>e.9-ch_2</td>
+        <td>Sejak sebelum bencana sudah terlibat atau minimal pernah mendengar keberadaan tim siaga bencana atau satgas
+          wilayah.</td>
+      </tr>
+      <tr>
+        <td>e.9-ch_3</td>
+        <td>Saat bencana ditolong atau dibantu oleh tim siaga bencana.</td>
+      </tr>
+      <tr>
+        <td>e.9-ch_4</td>
+        <td>Saat pulih dari akibat bencana ditolong atau dibantu oleh tim siaga bencana.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>F.1 Gangguan ekonomi di Pertanian dan Peternakan
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>f.1-ch_1</td>
+        <td>Sebelum terjadinya bencana tidak ada pertanian</td>
+      </tr>
+      <tr>
+        <td>f.1-ch_2</td>
+        <td>Terjadinya bencasna menimbulkan kerugian akibat gagal panen, sehingga membutuhkan modal kembali di musim
+          tanam berikutnya</td>
+      </tr>
+      <tr>
+        <td>f.1-ch_3</td>
+        <td>Hilangnya akses terhadap pekerjaan bagi keluarga petani</td>
+      </tr>
+      <tr>
+        <td>f.1-ch_4</td>
+        <td>Meningkatnya kerentanan karena hancurnya sumber daya cadangan keluarga berupa ternak dan tanaman produksi
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>F.2 Gangguan ekonomi di Perikanan
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>f.2-ch_1</td>
+        <td>Sebelum terjaidnya bencana tidak ada perikanan</td>
+      </tr>
+      <tr>
+        <td>f.2-ch_2</td>
+        <td>Terjadinya bencasna menimbulkan kerugian akibat gagal panen, sehingga membutuhkan modal kembali di musim
+          tanam berikutnya</td>
+      </tr>
+      <tr>
+        <td>f.2-ch_3</td>
+        <td>Hilangnya akses terhadap pekerjaan bagi keluarga petani</td>
+      </tr>
+      <tr>
+        <td>f.2-ch_4</td>
+        <td>Meningkatnya kerentanan karena hancurnya sumber daya cadangan keluarga</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>F.3 Gangguan ekonomi di Pariwisata
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>f.3-ch_1</td>
+        <td>Sebelum terjadinya bencana memang sudah tidak ada pariwisata</td>
+      </tr>
+      <tr>
+        <td>f.3-ch_2</td>
+        <td>Terjadinya bencanaa menimbulkan menurunya pariwisata</td>
+      </tr>
+      <tr>
+        <td>f.3-ch_3</td>
+        <td>Hilangnya akses terhadap pekerjaan bagi keluarga</td>
+      </tr>
+      <tr>
+        <td>f.3-ch_4</td>
+        <td>Hilangnya pekerjan bagi oemandu wisata</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>G.1 Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi krisis bencana konvensional,
+      Banjir/Longsor/Erupsi/ dll
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>g.1-ch_1</td>
+        <td>Media mainstream (TV, Koran, Radio, media sosial, dll)</td>
+      </tr>
+      <tr>
+        <td>g.1-ch_2</td>
+        <td>Juru Bicara/pejabat/wakil Pemerintah langsung.</td>
+      </tr>
+      <tr>
+        <td>g.1-ch_3</td>
+        <td>Juru terang LSM/NGO</td>
+      </tr>
+      <tr>
+        <td>g.1-ch_4</td>
+        <td>Forum Komunitas Pengurangan Risiko Bencana</td>
+      </tr>
+      <tr>
+        <td>g.1-ch_5</td>
+        <td>Kawan/ Saudara melalui perbincangan.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>G.2 Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi Banjir ROB
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>g.2-ch_1</td>
+        <td>Media mainstream (TV, Koran, Radio, media sosial, dll)</td>
+      </tr>
+      <tr>
+        <td>g.2-ch_2</td>
+        <td>Juru Bicara/pejabat/wakil Pemerintah langsung.</td>
+      </tr>
+      <tr>
+        <td>g.2-ch_3</td>
+        <td>Juru terang LSM/NGO</td>
+      </tr>
+      <tr>
+        <td>g.2-ch_4</td>
+        <td>Forum Komunitas Pengurangan Risiko Bencana</td>
+      </tr>
+      <tr>
+        <td>g.2-ch_5</td>
+        <td>Kawan/ Saudara melalui perbincangan.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>G.3 Sumber informasi bencana dan ancaman bencana dapat diperoleh tentang informasi Cuaca
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>g.3-ch_1</td>
+        <td>Media mainstream (TV, Koran, Radio, media sosial, dll)</td>
+      </tr>
+      <tr>
+        <td>g.3-ch_2</td>
+        <td>Juru Bicara/pejabat/wakil Pemerintah langsung.</td>
+      </tr>
+      <tr>
+        <td>g.3-ch_3</td>
+        <td>Juru terang LSM/NGO</td>
+      </tr>
+      <tr>
+        <td>g.3-ch_4</td>
+        <td>Forum Komunitas Pengurangan Risiko Bencana</td>
+      </tr>
+      <tr>
+        <td>g.3-ch_5</td>
+        <td>Kawan/ Saudara melalui perbincangan.</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>G.4 Pengambil keputusan respon terkait Informasi bencana dan cuaca
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>g.4-ch_1</td>
+        <td>Anak Laki-laki</td>
+      </tr>
+      <tr>
+        <td>g.4-ch_2</td>
+        <td>Dewasa Laki-laki</td>
+      </tr>
+      <tr>
+        <td>g.4-ch_3</td>
+        <td>Lansia Laki-laki</td>
+      </tr>
+      <tr>
+        <td>g.4-ch_4</td>
+        <td>Anak Perempuan</td>
+      </tr>
+      <tr>
+        <td>g.4-ch_5</td>
+        <td>Dewasa Perempuan</td>
+      </tr>
+      <tr>
+        <td>g.4-ch_6</td>
+        <td>Lansia Perempuan</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>H.1 aspirasi pemulihan / peningkatan kapasitas / pengurangan kerentanan akibat bencana
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>h.1-ch_1</td>
+        <td>Pinjaman/ Bantuan/ Intervensi Modal Usaha</td>
+      </tr>
+      <tr>
+        <td>h.1-ch_2</td>
+        <td>Dukungan Ketrampilan Diversifikasi atau Adaptasi Usaha</td>
+      </tr>
+      <tr>
+        <td>h.1-ch_3</td>
+        <td>Dukungan Pemasaran, Akses Pasar, Rantai Distribusi</td>
+      </tr>
+      <tr>
+        <td>h.1-ch_4</td>
+        <td>Dukungan Kebijakan Lokal/Nasional, Kemudahan Perijinan, dll.</td>
+      </tr>
+      <tr>
+        <td>h.1-ch_5</td>
+        <td>Bantuan Lain-Lain (Riset/Gudang/Uji Laborat/promosi, pelatihan, dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>H.2 Kebutuhan dukungan Komunal/Kolektif/Masyarakat untuk Pemulihan bencana ROB
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>h.2-ch_1</td>
+        <td>Dukungan untuk penerangan/ pengetahuan pada Masyarakat tentang Pencegahan Bencana. (tim siaga, prosedur
+          kedaruratan, PPGD, dll)</td>
+      </tr>
+      <tr>
+        <td>h.2-ch_2</td>
+        <td>Bantuan peralatan pencegahan bencana (rambu, jalur evakuasi, kendaraan penngangkut, dll)</td>
+      </tr>
+      <tr>
+        <td>h.2-ch_3</td>
+        <td>Dukungan ketrampilan kolektif untuk menangani bencana. (evakuasi, analisis risiko komunal, mitigasi banjir
+          ROB, dll)</td>
+      </tr>
+      <tr>
+        <td>h.2-ch_4</td>
+        <td>Kebijakan publik yang mendukung pencegahan dan penanganan banjir ROB (regulasi, APBDES untuk penanganan
+          bencana dan bantuan korban bencana banjir ROB, dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>H.3 Kebutuhan dukungan/ perlindungan sosial (jaminan sosial dan bantuan sosial) berbasis keluarga untuk pemulihan
+      bencana
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'>
+      <tr>
+        <td>h.3-ch_1</td>
+        <td>Dukungan / Jaminan Sosial, jaminan kesehatan, tunjangan pra-kerja, dll.</td>
+      </tr>
+      <tr>
+        <td>h.3-ch_2</td>
+        <td>Dukungan / Bantuan Sosial Kebutuhan Pokok (Sembako)</td>
+      </tr>
+      <tr>
+        <td>h.3-ch_3</td>
+        <td>Dukungan / Bantuan Ketrampilan untuk Pemulihan Usaha.</td>
+      </tr>
+      <tr>
+        <td>h.3-ch_4</td>
+        <td>Dukungan Pendidikan (Paket Data, Beasiswa dll)</td>
+      </tr>
+      <tr>
+        <td>h.3-ch_5</td>
+        <td>Dukungan Energi (Subsidi BBM, Gas, Listrik dll)</td>
+      </tr>
+    </table>
+  </div>
+  <div class='alert alert-success'>
+    <b>H.4 Kebutuhan Dukungan/ Perlindungan Sosial (Jaminan Sosial dan Bantuan Sosial) kelompok rentan dalam keluarga
+    </b>
+  </div>
+  <div class='table-responsive'>
+    <table class='table table-sm table-striped table-bordered'></table>
+    <tr>
+      <td>h.4-ch_1</td>
+      <td>Dukungan untuk minoritas.</td>
+    </tr>
+    <tr>
+      <td>h.4-ch_2</td>
+      <td>Dukungan untuk perempuan.</td>
+    </tr>
+    <tr>
+      <td>h.4-ch_3</td>
+      <td>Dukungan untuk anak.</td>
+    </tr>
+    <tr>
+      <td>h.4-ch_4</td>
+      <td>Dukungan untuk difabel.</td>
+    </tr>
+    <tr>
+      <td>h.4-ch_5</td>
+      <td>Dukungan untuk Lansia.</td>
+    </tr>
+    </table>
+  </div>
+
 </div>
